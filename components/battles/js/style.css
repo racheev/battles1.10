@@ -1,0 +1,171 @@
+@CHARSET "UTF-8";
+
+#uploadButton font
+{
+	display:block;
+}
+
+
+div#brand-1-wrapper{
+	width:200px;
+	height:300px;
+
+}
+
+div#brand-2-wrapper{
+	width:200px;
+	height:300px;
+
+}
+
+div#brand-3-wrapper{
+	width:200px;
+	height:300px;
+
+}
+
+div#countdown{
+	font-size:12px;
+	color:#AAA;
+	text-align:center;
+	margin-top:60px;
+	margin-bottom:30px;
+}
+
+div#mini-countdown{
+	font-size:14px;
+	color:#AAA;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:30px;
+	width:350px;
+}
+
+div.clear{
+	height:0px;
+	font-size:0px;
+	line-height:0px;
+	clear:both;
+	float:none;
+}
+
+div.brand-votes{
+	margin-top:10px;
+	font-size:32px;
+	margin-bottom:20px;
+}
+div.brand-votes span{
+	font-size:16px;
+	color:#000;
+	display:block;
+	margin:0 auto;
+}
+
+input.vote{	
+	border-radius:5px;
+	color:#FFF;
+	font-weight:bold;
+	padding:8px;	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;	
+	background-image:url('/components/battles/img/btn.png');
+	cursor:pointer;
+	background-position:center 10%;
+}
+
+input.vote:hover{
+	background-position:center 20%;
+}
+
+div#brand-1-wrapper div.brand-votes{
+	color:#0778F8;
+}
+div#brand-1-wrapper input.vote{
+	border:1px #5CA9FF solid;
+	background-color:#0035BC;	
+	-webkit-box-shadow: #AAA 0px 0px 6px;
+}
+
+div#brand-2-wrapper div.brand-votes{
+	color:#F81F07;
+}
+
+div#brand-2-wrapper input.vote{
+	border:1px #FF8679 solid;
+	background-color:#F81F07;	
+	-webkit-box-shadow: #AAA 0px 0px 6px;
+}
+div#brand-3-wrapper div.brand-votes{
+	color:#3bdb5e;
+}
+
+div#brand-3-wrapper input.vote{
+	border:1px #51e471 solid;
+	background-color:#3bdb5e;	
+	-webkit-box-shadow: #AAA 0px 0px 6px;
+}
+#simplemodal-overlay{
+	background-color:#000;
+}
+
+#login-window, #social-window{
+	font-size:16px;
+	color:#AAA;
+	padding:20px;
+	background-color:#FFF;
+	-webkit-box-shadow: #FFF 0px 0px 10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;	
+	border-radius:5px;
+	border:2px #AAA solid;
+	width:410px;
+}
+#login-window img, #social-window img{
+	cursor:pointer;
+	margin:10px;
+	
+}
+
+div#submit{
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+div#submit span{
+	 font-size:14px; 
+	 color:#999;
+	 font-weight:bold;
+}
+
+div#submit p{
+	font-size:14px;
+}
+
+div#submit a{
+	font-size:18px;
+	font-weight:bold;
+	color:black;
+}
+
+div#submit input{
+	border:1px silver solid;
+	-webkit-box-shadow: #CCC 0px 0px 3px inset;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;	
+	border-radius:5px;
+	padding:5px;
+	color:#AAA;
+	font-weight:bold;
+	
+}
+
+a#close{
+	background-image:url('/components/battles/img/close.png');
+	width:32px;
+	height:32px;
+	position:absolute;
+	z-index:200;
+	top:-10px;
+	left:410px;
+}
